@@ -1,0 +1,21 @@
+CREATE DATABASE JPWeb
+CREATE TABLE Usuario(
+Codigo INT IDENTITY PRIMARY KEY,
+Email VARCHAR(55),
+Senha VARCHAR(55),
+)
+
+CREATE TABLE Alunos(
+Codigo INT IDENTITY PRIMARY KEY,
+Nome VARCHAR(101),
+Idade INT,
+Matricula INT,
+DataNascimento DATE,
+Cep INT,
+Endereco VARCHAR(201),
+Cidade VARCHAR(101),
+Bairro VARCHAR(101),
+Numero INT,
+)
+
+Select * FROM Usuario
